@@ -2,9 +2,9 @@
 
 <template>
   <h1>{{ msg }}</h1>
-  <!-- <el-progress :percentage="50">
+  <el-progress :percentage="50">
       <el-button type="text">Content</el-button>
-  </el-progress> -->
+  </el-progress>
   <Button type="warning">vant button</Button>
   <p>
     Recommended IDE setup:
@@ -34,7 +34,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import { ElButton,ElMessage } from 'element-plus'
+import {ElMessage } from 'element-plus'
 import { Button } from 'vant';
 defineProps({
   msg: String
@@ -49,6 +49,7 @@ console.log(import.meta.env.VITE_SOME_KEY,import.meta.env.MODE)
 
 
 <style lang="scss" scoped>
+@import "../var.scss";
 a {
 
   color: #42b983;
