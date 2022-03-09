@@ -1,7 +1,19 @@
-# Vue 3 + Vite
+diff a/README.md b/README.md	(rejected hunks)
+@@ -1,2 +1,17 @@
+ # vue3-vite
+ 使用vue3+vite打包的区分线上线下环境，以及element-plus和vant按需引入的简易框架。
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+初始换项目
+yarn install
 
-## Recommended IDE Setup
+运行本地或者测试环境
+yarn dev 或者 npm run dev
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+运行正式环境或者要测试使用正式环境的变量
+yarn dev:pro 或者 npm run dev:pro
+
+打包测试环境项目
+yarn build-dev 或者 npm run build-dev
+
+打包线上环境项目
+yarn build-prod 或者 npm run build-prod
