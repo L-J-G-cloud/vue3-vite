@@ -1,0 +1,58 @@
+.custome-container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: -webkit-linear-gradient(left,#785174,#453E7F);
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+.custome-main {
+  flex: 1;
+  height: 100%;
+  height: 1000px;
+  box-sizing: border-box;
+  padding: 37px 14px 0;
+  -webkit-overflow-scrolling: touch;
+}
+  
+.flex-bett{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-spac{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-col-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flex-col-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.el-card {
+    background: -webkit-linear-gradient(left top,#B67DB0,#776FBC);
+    background: -o-linear-gradient(left top,#B67DB0,#776FBC);
+    background: -mos-linear-gradient(left top,#B67DB0,#776FBC);
+    background: -moz-linear-gradient(left top,#B67DB0,#776FBC);
+    background: linear-gradient(left top,#B67DB0,#776FBC);
+    border: none !important;
+    border-radius: 10px !important;
+}
+
+.van-toast__text {
+    word-wrap: break-word !important;
+    word-break: normal !important;
+}
